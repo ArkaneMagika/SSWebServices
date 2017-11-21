@@ -1,5 +1,6 @@
 package biz.gsubiztech.SSwebservices;
 
+import biz.gsubiztech.SSwebservices.rest.MyResource;
 import javax.ws.rs.core.Application;
 
 import org.glassfish.jersey.server.ResourceConfig;

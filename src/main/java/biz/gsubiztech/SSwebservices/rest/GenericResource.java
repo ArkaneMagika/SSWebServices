@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package biz.gsubiztech.SSwebservices;
+package biz.gsubiztech.SSwebservices.rest;
 
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;

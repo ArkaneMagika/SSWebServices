@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package biz.gsubiztech.SSwebservices;
+package biz.gsubiztech.SSwebservices.serveroperations;
 
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
@@ -14,9 +14,6 @@ import com.twilio.type.PhoneNumber;
 import com.twilio.exception.ApiException;
 
 import java.text.SimpleDateFormat;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  *
@@ -35,12 +32,11 @@ public class SMS {
         try {
             Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
 
-            String[] usernames = {"Akane Simpson", "Lala Aichac", "Kerwan Miguel Antoine", "Jarrid Richards", "Gary White"};
-            String[] phonenumbers = {"3184368187", "", "", "", ""};
+            String phone = "1999999999";
             String sender = "15005550006";
             String body = pass;
 
-            Message message = Message.creator(new PhoneNumber("+"), new PhoneNumber(sender), body).create();
+            Message message = Message.creator(new PhoneNumber("+" + phone), new PhoneNumber(sender), body).create();
 
 //        Internal Message
             System.out.println("Message has been sent:\n" + body);
