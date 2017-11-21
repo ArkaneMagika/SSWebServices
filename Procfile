@@ -1,0 +1,1 @@
+web: java -cp target/classes:target/dependency/* biz.gsubiztech.mavenproject2.heroku.Main
