@@ -1,4 +1,4 @@
-package biz.gsubiztech.mavenproject2;
+package biz.gsubiztech.SSwebservices;
 
 ///*
 // * To change this license header, choose License Headers in Project Properties.

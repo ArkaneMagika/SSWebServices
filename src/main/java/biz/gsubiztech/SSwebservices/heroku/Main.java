@@ -1,4 +1,4 @@
-package biz.gsubiztech.mavenproject2.heroku;
+package biz.gsubiztech.SSwebservices.heroku;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.webapp.WebAppContext;

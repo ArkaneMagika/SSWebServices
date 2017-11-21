@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package biz.gsubiztech.mavenproject2;
+package biz.gsubiztech.SSwebservices;
 
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;

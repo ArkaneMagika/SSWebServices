@@ -1,4 +1,4 @@
-package biz.gsubiztech.mavenproject2;
+package biz.gsubiztech.SSwebservices;
 
 import javax.ws.rs.core.Application;
 
@@ -8,7 +8,6 @@ import org.glassfish.jersey.test.JerseyTest;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-import biz.gsubiztech.mavenproject2.MyResource;
 
 public class MyResourceTest extends JerseyTest {
 
@@ -26,4 +25,11 @@ public class MyResourceTest extends JerseyTest {
 
         assertEquals("Hello, Heroku!", responseMsg);
     }
+    
+//    @Test
+//    public void testgetEmail(){
+//        final String responseMsg = target().path("myresource").request().get(String.class);
+//        
+//        assertEquals("Email", responseMsg);
+//    }
 }

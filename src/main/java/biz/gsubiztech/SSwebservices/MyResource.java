@@ -1,4 +1,4 @@
-package biz.gsubiztech.mavenproject2;
+package biz.gsubiztech.SSwebservices;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -24,22 +24,27 @@ public class MyResource {
     public String getIt() {
         return "Hello, Heroku!";
     }
-    @PUT
-    @Consumes(MediaType.TEXT_PLAIN)
-    public void putIt(String email, String phone){
-        String user_email = email;
-        String user_phone = phone;
-    }
-    
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public void getEmail(){
-        String email = "";
-    }
-    
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public void getPhone(){
-        String phone = "";
-    }
+//    @PUT
+//    @Consumes(MediaType.TEXT_PLAIN)
+//    public String putEmail(String email){
+//        return email;
+//    }
+//    
+//    @PUT
+//    @Consumes()
+//    public String putPhone(String phone){
+//        return phone;
+//    }
+//    
+//    @GET
+//    @Produces(MediaType.TEXT_PLAIN)
+//    public String getEmail(){
+//        return "Email";
+//    }
+//    
+//    @GET
+//    @Produces(MediaType.TEXT_PLAIN)
+//    public String getPhone(){
+//        return "Phone";
+//    }
 }
