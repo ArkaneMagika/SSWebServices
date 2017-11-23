@@ -43,6 +43,8 @@ public class SocketConnect extends Thread {
                     try {
                         out.writeUTF("Attempting to thread instance on port: " + ConnSocket.getLocalPort());
                         Thread thrd = new Thread(new ServerThread(OpenSocket));
+                        threadList.add(thrd);
+                        numThreads.incrementAndGet();
 
                     } catch (IOException E) {
                         out.writeUTF("Unable to create thread for port " + ConnSocket.getLocalPort() + "\n");
