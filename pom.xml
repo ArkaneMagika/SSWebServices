@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -12,11 +10,63 @@
     <groupId>biz.gsubiztech</groupId>
     <artifactId>SSWebServices</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-alpha</version>
     <name>SSWebServices</name>
     <modules>
-        <module>web-content</module>
+        <!--<module>web-content</module>-->
         <module>app</module>
-    </modules>
+        <module>webapp</module>
+  </modules>
     
+    <developers>
+        <developer>
+            <name>Akane Simpson</name>
+            <email>akane.simpson@gmail.com</email>
+            <organization>Grambling State University</organization>
+            <organizationUrl>http://www.gram.edu</organizationUrl>
+            <roles>
+                <role>Backend Developer</role>
+                <role>DevOps Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Jarrid Richards</name>
+            <email>jarridrichards@hotmail.com</email>
+            <organization>Grambling State University</organization>
+            <organizationUrl>http://www.gram.edu</organizationUrl>
+            <roles>
+                <role>Technical Writer</role>
+                <role>Business</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Lala Aicha Coulibaly</name>
+            <email>lalaaichac@gmail.com</email>
+            <organization>Grambling State University</organization>
+            <organizationUrl>http://www.gram.edu</organizationUrl>
+            <roles>
+                <role>Cryptography Developement</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Kerwan Miguel Antoine</name>
+            <email>kerwanantoine@gmail.com</email>
+            <organization>Grambling State University</organization>
+            <organizationUrl>http://www.gram.edu</organizationUrl>
+            <roles>
+                <role>Frontend Developer</role>
+                <role>File Interface</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Gary White</name>
+            <email>gnite96@yahoo.com</email>
+            <organization>Grambling State University</organization>
+            <organizationUrl>http://www.gram.edu</organizationUrl>
+            <roles>
+                <role>Developer</role>
+                <role>File Editor</role>
+            </roles>
+        </developer>
+    </developers>
 </project>

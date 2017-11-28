@@ -12,6 +12,7 @@
 
     <groupId>biz.gsubiztech</groupId>
     <artifactId>services</artifactId>
+    <version>0.2-alpha</version>
 
     <dependencyManagement>
         <dependencies>
@@ -27,7 +28,6 @@
 
     <dependencies>
         <!-- Spring Boot Dependencies -->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -139,7 +139,7 @@
     </dependencies>
 
     <build>
-        <finalName>Secure Share Server</finalName>
+        <finalName>secure-share-web-services</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -191,7 +191,25 @@
                     </execution>
                 </executions>
             </plugin>
-        </plugins>
+<!--            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <phase>package</phase>
+                    </execution>
+                </executions>                
+            </plugin>-->
+        </plugins> 
     </build>
 
     <properties>
